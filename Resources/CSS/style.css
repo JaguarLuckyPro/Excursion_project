@@ -1,0 +1,42 @@
+body {
+  margin: 0 /*Прибираю відступи браузера*/
+
+  font-family: 'Verdana';
+  font-size: 16px;
+  background-color: #000;
+}
+
+/*Алгоритм підрахунку полів і відступів*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*Основний контейнер*/
+.wrapper {
+  width: 100%;
+
+/*максимальна ширина wrapper*/
+  max-width: 1280px;
+/*вирівнювання wrapper*/
+margin: 0 auto;
+}
+
+/*Header/~/~/~/~/*/
+.header {
+  text-align: center;
+}
+
+.header__title {
+  font-family: 'Verdana';
+  font-weight: normal;
+  font-size: 50px;
+  color: #fff;
+}
+
+.link__content {
+  font-family: 'Verdana';
+  font-size: 16px;
+  color: aquamarine;
+}
